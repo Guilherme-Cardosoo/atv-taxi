@@ -30,6 +30,28 @@ header {
     padding: 2vw 8vw 2vw 8vw;
 }
 
+section.banner {
+    background-image: url(../scr/img/background-footer.png);
+    height: 689px;
+}
+
+section.banner h2 {
+    color: #252B42;
+}
+
+section.banner p {
+    color: #737373;
+}
+
+section.banner button {
+    color: #FFFFFF;
+    background-color: #252B42;
+    border-radius: 5px;
+    border: 1px;
+    width: 221px;
+    height: 74px;
+}
+
 @media (min-width:1024px) {
     header nav {
         display: flex;
